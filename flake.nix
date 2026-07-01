@@ -16,7 +16,7 @@
     };
 
   outputs =
-    { self, nixpkgs, colmena, ... }@inputs:
+    { self, nixpkgs, ... }@inputs:
     let
       inherit (self) outputs;
       system = "x86_64-linux";
